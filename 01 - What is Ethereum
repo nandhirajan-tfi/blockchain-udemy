@@ -1,0 +1,36 @@
+- What is Ethereum
+- How do interact with Ethereum
+- Tooling, Deployment, Testing of Apps with Ethereum
+- Building a multi-page App with Ethereum
+
+Smart Contract
+- Set of instructions to interact with Ethereum
+- An entity that can send and receive Ethereum
+
+Whitepapers
+- Bitcoin https://bitcoin.org/bitcoin.pdf
+- Ethereum http://web.archive.org/web/20131228111141/http://vbuterin.com/ethereum.html
+
+What is Ethereum
+- Transfer of money through network and store data
+- Different Ethereum Networks
+  - TestNet -> For Testing
+  - Can create our own Ethereum Network
+- Network are formed by one or more nodes. Each node is a machine running Ethereum Client
+- Each node has full copy of a Blockchain
+- Blockchain is a database that stores a record of every transaction
+
+Interfacing with Ethereum Networks
+- Developers use web3.js
+- Consumers use Metamask
+
+Metamask
+- Account Address
+- Public Key
+- Private Key
+
+Account Address -> Common across all networks
+Public Key + Private Key -> Combines together to form the password. Used to authorize funds sending from the account to other account
+
+Receiving Ethereum?
+

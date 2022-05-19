@@ -33,4 +33,25 @@ Account Address -> Common across all networks
 Public Key + Private Key -> Combines together to form the password. Used to authorize funds sending from the account to other account
 
 Receiving Ethereum?
-
+Project URL - https://rinkeby-faucet.com/
+Steps:
+ - Get the wallet address from client
+ - Send the address to backend server
+ - Server use web3 library to create a transaction
+ - Server send the transaction object to Rinkeby test network
+ - Server wait for the transaction to be confirmed
+ - Send success message to client
+ 
+ What is Transaction?
+ - Transaction will not communicate with entire network. It will always go to one node. That node will communicate with other nodes in network
+ - Node has the blockchains internally
+ - Will accept multiple transactions at same time. Combining all these transactions are block
+ - Node will validate the block. This process is called mining
+ 
+ Gas Free - Amount of Ether paid for processing the transaction
+ Start Gas / Gas Limit - Uni of Gas this transaction can consume
+ v,r,s 
+  - Generated from Sender's private key to get Sender's account address
+  - With private key, we can generate v,r,s. Other way is not possible
+ 
+ 

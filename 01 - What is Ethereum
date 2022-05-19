@@ -56,3 +56,8 @@ Steps:
  
 Blockchain Demo:
 https://andersbrownworth.com/blockchain/hash
+
+Block Time:
+Time to find a solution by increasing Nonce to get different Hash is Block Time
+
+

@@ -58,6 +58,32 @@ Blockchain Demo:
 https://andersbrownworth.com/blockchain/hash
 
 Block Time:
-Time to find a solution by increasing Nonce to get different Hash is Block Time
+- Time to find a solution by increasing Nonce to get different Hash is Block Time
+- When one node find the solution, it will distribute the result to other nodes across the network.
+- Target Block Time for ETH is 15 secs. Program will adjust the solution itself
+- Average Block Time - https://etherscan.io/chart/blocktime
+
+Smart Contract:
+- An account controlled by the code
+- Contract Account:
+  - Specific to the network, can't be access cross-network
+  - balance - Total ETH the account owns
+  - storage - Data Storage for the contract
+  - code - Program code for the contract
+- External Account:
+  - Specific to the user
+  - Same across all networks
+- Develop Contract Source (Class) from local and deploy to the ETH network as Contract Instance (Object)
+
+Solidity Program Language:
+- Extension .sol files
+- Strongly Typed Language
+- How it works
+  - Write Contract Definition in .sol
+  - Compile using Solidity Compiler
+    - Generates Byte Code ready for deployment
+    - Geneates Application Binary Interface (ABI)
+  - Javascript code ( client code ) interact with Byte Code through ABI
 
 
+  

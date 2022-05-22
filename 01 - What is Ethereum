@@ -32,9 +32,9 @@ Metamask
 Account Address -> Common across all networks
 Public Key + Private Key -> Combines together to form the password. Used to authorize funds sending from the account to other account
 
-Receiving Ethereum?
+Receiving Ethereum
 Project URL - https://rinkeby-faucet.com/
-Steps:
+Steps
  - Get the wallet address from client
  - Send the address to backend server
  - Server use web3 library to create a transaction
@@ -42,7 +42,7 @@ Steps:
  - Server wait for the transaction to be confirmed
  - Send success message to client
  
- What is Transaction?
+ What is Transaction
  - Transaction will not communicate with entire network. It will always go to one node. That node will communicate with other nodes in network
  - Node has the blockchains internally
  - Will accept multiple transactions at same time. Combining all these transactions are block
@@ -54,16 +54,16 @@ Steps:
   - Generated from Sender's private key to get Sender's account address
   - With private key, we can generate v,r,s. Other way is not possible
  
-Blockchain Demo:
+Blockchain Demo
 https://andersbrownworth.com/blockchain/hash
 
-Block Time:
+Block Time
 - Time to find a solution by increasing Nonce to get different Hash is Block Time
 - When one node find the solution, it will distribute the result to other nodes across the network.
 - Target Block Time for ETH is 15 secs. Program will adjust the solution itself
 - Average Block Time - https://etherscan.io/chart/blocktime
 
-Smart Contract:
+Smart Contract
 - An account controlled by the code
 - Contract Account:
   - Specific to the network, can't be access cross-network
@@ -75,7 +75,7 @@ Smart Contract:
   - Same across all networks
 - Develop Contract Source (Class) from local and deploy to the ETH network as Contract Instance (Object)
 
-Solidity Program Language:
+Solidity Program Language
 - Extension .sol files
 - Strongly Typed Language
 - How it works
@@ -85,5 +85,22 @@ Solidity Program Language:
     - Geneates Application Binary Interface (ABI)
   - Javascript code ( client code ) interact with Byte Code through ABI
 
+Testing in Remix
+- In-browser fake network
+- Constructor method will auto
 
-  
+Transaction
+- Exchange Transaction
+- Smart Contract Transaction
+  - To address is null
+  - nonce - Network address
+  - data - compile bytecode of the contract
+
+Why Transaction
+- Any modifications in Blockchain need to trigger the transaction and approval required
+
+How Transaction Works
+- Take Time to execute
+- Each transaction returns the transaction hash ID
+- Take Costs
+

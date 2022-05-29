@@ -104,3 +104,9 @@ How Transaction Works
 - Each transaction returns the transaction hash ID
 - Take Costs
 
+Wei - Minimum denominator of Ether
+gasPrice - Number of wei the sender willing to pay for the gas
+gasLimit - Allowable gas limit for the function. If reached the limit, the execution will be halted
+
+To get more test ETH
+- https://faucets.chain.link/rinkeby
